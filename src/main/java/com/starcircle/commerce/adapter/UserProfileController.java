@@ -16,7 +16,7 @@ public class UserProfileController {
     private final UserProfileService userProfileService;
 
     @GetMapping("/{account}")
-    public UserProfileDto getUserProfile(@PathVariable String account) {
+    public UserProfileDto getUserProfile(@PathVariable("account") String account) {
         return userProfileService.getUserProfileDetail(account);
     }
 }
