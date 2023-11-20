@@ -1,6 +1,7 @@
 package com.starcircle.commerce.adapter;
 
-import com.starcircle.commerce.common.UserProfileDto;
+import com.starcircle.commerce.adapter.in.UserProfileController;
+import com.starcircle.commerce.common.dto.UserProfileDto;
 import com.starcircle.commerce.core.impl.UserProfileServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
-package com.starcircle.commerce.adapter;
+package com.starcircle.commerce.adapter.in;
 
-import com.starcircle.commerce.common.UserProfileDto;
+import com.starcircle.commerce.common.dto.UserProfileDto;
 import com.starcircle.commerce.core.UserProfileService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

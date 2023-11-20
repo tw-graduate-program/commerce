@@ -1,4 +1,4 @@
-package com.starcircle.commerce.common;
+package com.starcircle.commerce.common.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

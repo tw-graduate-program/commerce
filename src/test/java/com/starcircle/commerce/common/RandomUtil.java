@@ -1,5 +1,7 @@
 package com.starcircle.commerce.common;
 
+import com.starcircle.commerce.common.dto.UserProfileDto;
+
 import java.util.Random;
 
 public class RandomUtil {

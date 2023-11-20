@@ -1,7 +1,7 @@
 package com.starcircle.commerce.core.impl;
 
 import com.starcircle.commerce.adapter.out.UserAccountRepository;
-import com.starcircle.commerce.common.UserProfileDto;
+import com.starcircle.commerce.common.dto.UserProfileDto;
 import com.starcircle.commerce.common.domain.UserAccountDO;
 import com.starcircle.commerce.core.UserProfileService;
 import org.junit.jupiter.api.BeforeEach;
