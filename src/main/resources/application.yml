@@ -1,0 +1,24 @@
+server:
+  address: localhost
+  port: 8080
+
+spring:
+  application:
+    name: commerce
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:postgresql://localhost:5432/star_ring
+    username: postgres
+    password: pAssword
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
+    encoding: UTF-8
+    locations: classpath:db/migration
+    sql-migration-prefix: V
+    sql-migration-separator: __
+    sql-migration-suffixes: .sql
+    validate-on-migrate: true
